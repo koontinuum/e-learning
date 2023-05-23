@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -5,10 +6,14 @@ import styles from "./Header.module.scss";
 import logo from "../../images/header/logo.svg";
 import search from "../../images/header/search.svg";
 import lang from "../../images/header/lang.svg";
-
+import "../../i18n";
+import { useTranslation } from "react-i18next";
 function Header() {
   const [showNav, setShowNav] = useState(false);
-
+  const { i18n } = useTranslation();
+  let handleClick = (lang: string ) => {
+    i18n.changeLanguage(lang);
+   };
   const showNavbar = () => {
     setShowNav(!showNav);
   };
@@ -73,7 +78,13 @@ function Header() {
           <img src={search} alt="search" />
         </button>
         <button className={styles.lang__button}>
-          <img src={lang} alt="lang" />
+          <img 
+          src={lang} 
+          alt="lang"
+          onClick={() =>
+            handleClick(i18n.language === "ru" ? "en" : "ru")
+          }
+          />
         </button>
         <button className={styles.login__button}>Login</button>
         <button className={styles.joinUs__button}>Join Us</button>
