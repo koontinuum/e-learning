@@ -1,22 +1,16 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-
-import en from "./locales/en.json";
-import ru from "./locales/ru.json";
-
-const resources = {
-  en: {
-    translation: en,
-  },
-  ru: {
-    translation: ru,
-  },
-};
+import ru from "../src/locales/ru.json"
+import en from "../src/locales/en.json";
 
 i18n.use(initReactI18next).init({
-  resources,
+  resources: {
+    en: { translation: en },
+    ru: { translation: ru },
+  },
   lng: "en",
-  keySeparator: false,
+  fallbackLng: "en",
+
   interpolation: {
     escapeValue: false,
   },
