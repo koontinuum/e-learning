@@ -5,21 +5,21 @@ import Hero from "../components/Hero/Hero";
 import InterComp from "../components/interComp/InterComp";
 import OurTeachers from "../components/ourTeachers/OurTeachers";
 import WeWorkWith from "../components/WeWorkWith/WeWorkWith";
-
+import StudentsSlide from "../components/StudentsSlide/StudentsSlide";
 
 function CoursesLanding() {
   return (
     <div>
       <Header />
-      <OurTeachers/>
-      <InterComp/>
-      </div>
-      <Hero/>
-      <WeWorkWith/>
-      <FeaturedCategory/>
-      <InterComp/>
+      <OurTeachers />
+      <StudentsSlide />
+      <InterComp />
+      <Hero />
+      <WeWorkWith />
+      <FeaturedCategory />
+      <InterComp />
     </div>
-   );
+  );
 }
 
 export default CoursesLanding;
