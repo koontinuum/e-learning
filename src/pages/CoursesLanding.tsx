@@ -4,6 +4,7 @@ import FeaturedCategory from "../components/FeaturedCategory/FeaturedCategory";
 import Hero from "../components/Hero/Hero";
 import InterComp from "../components/interComp/InterComp";
 import WeWorkWith from "../components/WeWorkWith/WeWorkWith";
+import DownloadApp from "../components/DownloadApp/DownloadApp";
 
 function CoursesLanding() {
   return (
@@ -12,8 +13,8 @@ function CoursesLanding() {
       <Hero/>
       <WeWorkWith/>
       <FeaturedCategory/>
+      <DownloadApp/>
       <InterComp/>
-
     </div>
   );
 }
