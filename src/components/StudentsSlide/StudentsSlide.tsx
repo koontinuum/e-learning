@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { students } from "../../objects/StudentsSlide";
 import arrowPrev from "../../images/StudentsSlide/arrow.svg";
 import arrowNext from "../../images/StudentsSlide/arrow2.svg";
+import { useTranslation } from "react-i18next";
 
 interface ArrowProps {
   className?: string;
@@ -14,6 +15,7 @@ interface ArrowProps {
 }
 
 function StudentsSlide() {
+  const { t } = useTranslation();
   const settings = {
     dots: false,
     infinite: true,
@@ -54,12 +56,12 @@ function StudentsSlide() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.slide__wrapper}>
-        <h1>What Our Students Say</h1>
+        <h1> {t("students.h1")}</h1>
         <Slider {...settings}>
           {students.map((item) => (
             <div className={styles.sliderContent} key={item.id}>
               <img src={item.img} alt="vector" />
-              <h2>{item.title}</h2>
+              <h2>{t("students.h2")}</h2>
               <div className={styles.slider__avatars}>
                 <img src={item.img1} alt="avatar" />
                 <img src={item.img2} alt="avatar" />

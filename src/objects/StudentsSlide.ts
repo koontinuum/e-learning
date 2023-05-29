@@ -10,7 +10,7 @@ export const students=[
     {
         id:1,
         img:vector,
-        title:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        title:'students.h2',
         img1:avatar,
         img2:avatar2,
         img3:student,
@@ -22,7 +22,7 @@ export const students=[
     {
         id:2,
         img:vector,
-        title:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        title:'students.h2',
         img1:avatar,
         img2:avatar2,
         img3:student,
@@ -34,7 +34,7 @@ export const students=[
     {
         id:3,
         img:vector,
-        title:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        title:'students.h2',
         img1:avatar,
         img2:avatar2,
         img3:student,
@@ -46,7 +46,7 @@ export const students=[
     {
         id:4,
         img:vector,
-        title:'Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!',
+        title:'students.h2',
         img1:avatar,
         img2:avatar2,
         img3:student,

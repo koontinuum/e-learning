@@ -11,13 +11,12 @@ function CoursesLanding() {
   return (
     <div>
       <Header />
+      <Hero />
       <OurTeachers />
       <StudentsSlide />
       <InterComp />
-      <Hero />
+      <FeaturedCategory /> 
       <WeWorkWith />
-      <FeaturedCategory />
-      <InterComp />
     </div>
   );
 }
