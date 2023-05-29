@@ -1,5 +1,6 @@
 .wrapper {
   width: 100%;
+
   padding: 2% 5%;
   .title__h5 {
     font-family: "Poppins";
@@ -15,6 +16,7 @@
     text-align: start;
     .main__img {
       width: 50%;
+
       margin-bottom: 50px;
       border-radius: 15px;
       flex: none;
@@ -23,6 +25,7 @@
     }
     .main__title {
       width: 50%;
+
       margin-left: 3%;
       .title__h6 {
         font-family: "Barlow";
@@ -86,6 +89,7 @@
       .main__img {
         width: 100%;
         img {
+
           width: 100%;
           padding-left: -15%;
           border-radius: 10px;
