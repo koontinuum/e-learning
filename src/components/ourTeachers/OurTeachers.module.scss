@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  width: 100%;
+ .wrapper__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #637381;
+  }
+  .wrapper__p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #637381;
+    width: 30%;
+    padding-top: 2%;
+  }
+  .wrapper__wrappCardsContainer {
+    display: flex;
+    padding-top: 4%;
+    .wrapper__cardsContainer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+    }
+  }
+  .wrapper__btn {
+    padding-top: 2%;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .wrapper__wrappCardsContainer {
+    
+    width: 100%;
+    padding-top: 4%;
+    
+  }
+}

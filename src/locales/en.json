@@ -14,6 +14,19 @@
   "H2":"WeWorkWith",
   "titleWorkTextP":"Quisque aliquet, libero consequat elementum convallis."
 
-}
-}
+},
+
+"FeaturedCategory":{
+  "featuredlefttexth2":"Featured Category",
+  "featuredlefttextp":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
+  "featuredleftbtn": "Explore more",
+"teachers":{
+  "h2":"Meet Our Teachers",
+  "p":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases"
+},
+"students":{
+  "h1":"What Our Students Say",
+  "h2":"Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!",
+  "p":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases"
+}}}
 
