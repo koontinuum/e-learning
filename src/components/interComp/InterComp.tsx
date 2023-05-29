@@ -4,7 +4,8 @@ import imgInterComp from "../../images/interComp/IMG.svg";
 import line from "../../images/interComp/Rectangle 530.svg";
 import { useTranslation } from "react-i18next";
 
-function InterComp() {
+
+const InterComp:React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className={scss.wrapper}>
