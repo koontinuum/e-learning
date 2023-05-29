@@ -3,13 +3,15 @@ import scss from './WeWorkWith.module.scss'
 import { WeWorkWithData } from '../../objects/WeWorkWith/WeWorkWithData'
 import spotify from '../../images/WeWorkWith/brand_spotify.svg'
 import slack from '../../images/WeWorkWith/stack.svg'
+import { useTranslation } from 'react-i18next'
 
 function WeWorkWith() {
+    const { t } = useTranslation();
   return (
     <div className={scss.wrapper__brands}>
         <div>
-            <h2>We Work With</h2>
-    <p>Quisque aliquet, libero consequat elementum convallis.</p>
+            <h2>{t("WeWorkWith.H2")}</h2>
+    <p>{t("WeWorkWith.titleWorkTextP")} </p>
     </div>
     <div className={scss.brands}> 
     {

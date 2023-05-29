@@ -8,6 +8,7 @@ import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 import OurTeachers from "../components/ourTeachers/OurTeachers";
 import WeWorkWith from "../components/WeWorkWith/WeWorkWith";
+import DownloadApp from "../components/DownloadApp/DownloadApp";
 import StudentsSlide from "../components/StudentsSlide/StudentsSlide";
 
 function CoursesLanding() {
@@ -16,6 +17,7 @@ function CoursesLanding() {
       <Header />
       <Hero/>
       <WeWorkWith/>
+<DownloadApp/>
       <InterComp/>
       <FeaturedCategory/>
       <OurTeachers/>
