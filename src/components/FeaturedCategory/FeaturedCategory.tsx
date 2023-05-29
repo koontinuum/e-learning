@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import scss from './FeaturedCategory.module.scss'
 import { FeaturedCategoreData } from '../../objects/FeaturedCategoryData'
+import { useTranslation } from 'react-i18next';
 
 function FeaturedCategory() {
+  const { t } = useTranslation();
+
     const [windowSize, setWindowSize] = useState<{ width: number }>({
         width: window.innerWidth
     });
@@ -25,10 +28,10 @@ function FeaturedCategory() {
         <div className={scss.wrapper}>
             <div className={scss.left}>
                 <div className={scss.left__text}>
-                    <h2>Featured Category</h2>
-                    <p>Since wire-frame renderings are relatively <br /> simple and fast to calculate, they are often <br /> used in cases</p>
+                    <h2>{t("FeaturedCategory.featuredlefttexth2")}</h2>
+                    <p>{t("FeaturedCategory.featuredlefttextp")}</p>
                 </div>
-                <button>Explore more</button>
+                <button>{t("FeaturedCategory.featuredleftbtn")}</button>
             </div>
             <div className={scss.right}>
                 {

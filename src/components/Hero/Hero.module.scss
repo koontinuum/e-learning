@@ -204,6 +204,7 @@
                 font-size: 15px;
                 line-height: 26px;
                 color: #FFFFFF;
+                cursor: pointer;
             }
         }
 
@@ -250,7 +251,7 @@
     height: 662px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 391px) {
 
     .wrapper {
         padding: 16px 20px 80px 20px;
@@ -261,6 +262,10 @@
         flex-direction: column;
         .box__left {
             align-items: center;
+            width: 335px;
+            .line {
+                width: 390px;
+            }
             h2 {
                 font-size: 36px;
                 line-height: 50px;
@@ -287,6 +292,35 @@
                 gap: 24px;
                 width: 335px;
                 height: 184px;
+            }
+            .left__infa {
+                width: 335px;
+                gap: 0;
+                justify-content: space-between;
+                .learners {
+                    div {
+                        h3 {
+                            font-size: 24px;
+                            line-height: 36px;
+                        }
+                    }
+                }
+                .courses {
+                    div {
+                        h3 {
+                            font-size: 24px;
+                            line-height: 36px;
+                        }
+                    }
+                }
+                .graduates {
+                    div {
+                        h3 {
+                            font-size: 24px;
+                            line-height: 36px;
+                        }
+                    }
+                }
             }
         }
     }
