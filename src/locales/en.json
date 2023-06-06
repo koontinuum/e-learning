@@ -15,6 +15,13 @@
     "titleWorkTextP": "Quisque aliquet, libero consequat elementum convallis."
   },
 
+},
+"FeaturedCourses":{
+  "titleCourses":"FeaturedCourses",
+  "titleLoremP":"Nullam accumsan lorem in dui. Praesent ac massa at ligula laoreet iaculis.",
+  "titletextB":"MANAGEMENT",
+  "titletextStrong":"Students"
+},
 
   "FeaturedCategory": {
     "featuredlefttexth2": "Featured Category",
