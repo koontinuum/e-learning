@@ -18,8 +18,7 @@ function CoursesLanding() {
       <Header />
       <Hero/>
       <WeWorkWith/>
-      
-<DownloadApp/>
+      <DownloadApp/>
       <InterComp/>
       <FeaturedCourses/>
       <FeaturedCategory/>

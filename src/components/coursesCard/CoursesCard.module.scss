@@ -1,0 +1,109 @@
+.wrapper {
+  display: flex;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  border-radius: 16px;
+  height: 320px;
+.wrapper__foto {
+  
+    img {
+      height: 100%;
+      border-radius: 15px 0 0 15px;
+    }
+  }
+  .wrapper__right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5%;
+    .wrapper__time {
+      margin-top: 3%;
+      img {
+        width: 200px;
+        height: 20px;
+      }
+    }
+    .wrapper__teacher{
+      img{
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+      }
+    }
+
+    .wrapper__star {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      img {
+        width: 220px;
+        height: 35px;
+      }
+    }
+    .wrapper__p {
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #637381;
+      }
+    }
+    .wrapper__h6 {
+      h6 {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #212b36;
+      }
+    }
+    //  .wrapper__title:nth-child(1) {
+       
+    //     p{
+         
+    //      margin-left: 8px;
+    //     }
+    //   }
+    .wrapper__title {
+      display: flex;
+    
+      h2 {
+        margin-top: 20%;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fa541c;
+      }
+      p {
+        position: relative;
+        left: 35%;
+        margin-top: 10%;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: right;
+        color: #6f7377;
+      }
+    }
+  }
+}
+
+@media (max-width:390px) {
+  .wrapper{
+    flex-direction: column;
+    align-items: center;
+    height: 666px;
+    width: 335px;
+    .wrapper__foto {
+  
+      img {
+        height: 100%;
+        border-radius: 15px15px 0 0 ;
+      }
+    }
+  }
+  
+}

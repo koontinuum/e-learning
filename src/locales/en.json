@@ -1,18 +1,19 @@
 {
-"interComp":{
-  "titleInter" : "Nullam accumsan lorem in dui.",
-  "titleInterH6" : "Phasellus gravida semper nisi. Vestibulum rutrum, mi",
-  "titleInterText" : " Curabitur a felis in nunc fringilla tristique. Fusce egestas elit eget lorem. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",
-  "titleInterTextP" : " Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis "
-}, 
-"DownloadApp":{
-"titleApp":"DownloadApp.",
-"titleAppTextP":"Scan QR code to install on your device",
-"titleTextP2": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi."
-},
-"WeWorkWith":{
-  "H2":"WeWorkWith",
-  "titleWorkTextP":"Quisque aliquet, libero consequat elementum convallis."
+  "interComp": {
+    "titleInter": "Nullam accumsan lorem in dui.",
+    "titleInterH6": "Phasellus gravida semper nisi. Vestibulum rutrum, mi",
+    "titleInterText": " Curabitur a felis in nunc fringilla tristique. Fusce egestas elit eget lorem. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",
+    "titleInterTextP": " Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis "
+  },
+  "DownloadApp": {
+    "titleApp": "DownloadApp.",
+    "titleAppTextP": "Scan QR code to install on your device",
+    "titleTextP2": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi."
+  },
+  "WeWorkWith": {
+    "H2": "WeWorkWith",
+    "titleWorkTextP": "Quisque aliquet, libero consequat elementum convallis."
+  },
 
 },
 "FeaturedCourses":{
@@ -22,17 +23,26 @@
   "titletextStrong":"Students"
 },
 
-"FeaturedCategory":{
-  "featuredlefttexth2":"Featured Category",
-  "featuredlefttextp":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
-  "featuredleftbtn": "Explore more",
-"teachers":{
-  "h2":"Meet Our Teachers",
-  "p":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases"
-},
-"students":{
-  "h1":"What Our Students Say",
-  "h2":"Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!",
-  "p":"Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases"
-}}}
+  "FeaturedCategory": {
+    "featuredlefttexth2": "Featured Category",
+    "featuredlefttextp": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
+    "featuredleftbtn": "Explore more"
+  },
+    "teachers": {
+      "h2": "Meet Our Teachers",
+      "p": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
+      "h3":"Courses"
+    },
+    "students": {
+      "h1": "What Our Students Say",
+      "h2": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!"
+    },
+
+  "Maximize": {
+    "main__title": "How to Maximize Your ROI Through Scientific SEM?",
+    "main__date": "February 28, 2018 • 8 min read",
+    "main__info": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "author": "Jane Cooper"
+  }
+}
 

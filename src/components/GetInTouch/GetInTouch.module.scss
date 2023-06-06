@@ -1,0 +1,152 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 144px;
+    gap: 122px;
+    width: 1440px;
+    height: 658px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 366px;
+    height: 453px;
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #212B36;
+    }
+
+    .left__infa {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 0px 0px;
+        gap: 24px;
+        width: 366px;
+        height: 389px;
+    }
+}
+
+.infa_email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 366px;
+    height: 60px;
+
+    p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #212B36;
+    }
+
+    .email_icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        width: 366px;
+        height: 26px;
+    }
+}
+
+.line {
+    border: 1px dashed rgba(145, 158, 171, 0.24);
+    width: 366px;
+}
+
+.infa_follow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 168px;
+    height: 72px;
+
+    p {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #212B36;
+    }
+}
+
+.buttonSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 168px;
+    height: 36px;
+}
+
+iframe {
+    border-radius: 16px;
+    border: none;
+}
+
+@media (max-width: 391px) {
+    .wrapper {
+        flex-direction: column;
+        padding: 64px 20px;
+        gap: 64px;
+        width: 375px;
+        height: 958px;
+    }
+
+    .left {
+        align-items: center;
+        width: 335px;
+        height: 431px;
+        h2 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        .left__infa {
+            align-items: center;
+            width: 335px;
+            height: 389px;            
+        }
+    }
+
+    .infa_email {
+        align-items: center;
+        width: 335px;
+        height: 60px;
+        .email_icon {
+            align-items: center;
+            width: 72px;
+            height: 26px;
+        }
+    }
+
+    .infa_follow {
+        align-items: center;
+    }
+
+    iframe {
+        width: 335px;
+        height: 335px;
+        border-radius: 16px;
+    }
+}
