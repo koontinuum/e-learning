@@ -8,14 +8,14 @@ import CoursesBlog from "./pages/CoursesBlog";
 import CoursesBlogDetails from "./pages/CoursesBlogDetails";
 import CoursesAbout from "./pages/CoursesAbout";
 import CoursesContact from "./pages/CoursesContact";
-
+import stars from "./constants/stars"
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CoursesLanding />} />
-          <Route path="/Courses-List" element={<CoursesList />} />
+          <Route path="/Courses-List" element={<CoursesList stars={stars}/>} />
           <Route path="/Courses-Details" element={<CoursesDetails />} />
           <Route path="/Courses-Blog" element={<CoursesBlog />} />
           <Route

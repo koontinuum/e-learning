@@ -3,7 +3,6 @@ import avatar from '../images/StudentsSlide/avatar1.svg'
 import avatar2 from '../images/StudentsSlide/avatar2.svg'
 import avatar3 from '../images/StudentsSlide/avatar3.svg'
 import avatar4 from '../images/StudentsSlide/avatar4.svg'
-
 import vector from '../images/StudentsSlide/Vector.svg'
 
 export const students=[
