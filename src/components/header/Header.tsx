@@ -11,9 +11,9 @@ import { useTranslation } from "react-i18next";
 function Header() {
   const [showNav, setShowNav] = useState(false);
   const { i18n } = useTranslation();
-  let handleClick = (lang: string ) => {
+  let handleClick = (lang: string) => {
     i18n.changeLanguage(lang);
-   };
+  };
   const showNavbar = () => {
     setShowNav(!showNav);
   };
@@ -30,9 +30,32 @@ function Header() {
         <a className={styles.header__links} href="#">
           Components
         </a>
-        <a className={styles.header__links} href="#">
-          Pages
-        </a>
+        <div className={styles.dropdown}>
+          <button className={styles.dropbtn}>Pages</button>
+          <div className={styles.dropdown_content}>
+            <Link to="/" className={styles.navLink}>
+              Courses-Landing
+            </Link>
+            <Link to="/Courses-List" className={styles.navLink}>
+              Courses-List
+            </Link>
+            <Link to="/Courses-Details" className={styles.navLink}>
+              Courses-Details
+            </Link>
+            <Link to="/Courses-Blog" className={styles.navLink}>
+              Courses-Blog
+            </Link>
+            <Link to="/Courses-Blog-Details" className={styles.navLink}>
+              Courses-Blog-Details
+            </Link>
+            <Link to="/Courses-About" className={styles.navLink}>
+              Courses-About
+            </Link>
+            <Link to="/Courses-Contact" className={styles.navLink}>
+              Courses-Contact
+            </Link>
+          </div>
+        </div>
         <a className={styles.header__links} href="#">
           Documentation
         </a>
@@ -78,12 +101,10 @@ function Header() {
           <img src={search} alt="search" />
         </button>
         <button className={styles.lang__button}>
-          <img 
-          src={lang} 
-          alt="lang"
-          onClick={() =>
-            handleClick(i18n.language === "ru" ? "en" : "ru")
-          }
+          <img
+            src={lang}
+            alt="lang"
+            onClick={() => handleClick(i18n.language === "ru" ? "en" : "ru")}
           />
         </button>
         <button className={styles.login__button}>Login</button>
