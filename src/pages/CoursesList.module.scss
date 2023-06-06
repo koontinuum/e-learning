@@ -1,0 +1,136 @@
+.wrap {
+  width: 100%;
+  .wrap_cont {
+    display: flex;
+    .cont__coursesCard {
+      width: 70%;
+      padding-left: 10%;
+      margin-top: 14.5%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    h5 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #637381;
+      margin-top: 20%;
+    }
+    h6 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #fa541c;
+      margin-top: 20%;
+    }
+
+    .wrap__main {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      display: flex;
+      align-items: start;
+      padding: 3% 10%;
+      gap: 8px;
+
+      h2 {
+        margin-bottom: 75%;
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #212b36;
+      }
+      .main__wrappinput {
+        .main__inp {
+          width: 280px;
+          height: 54px;
+          background: rgba(145, 158, 171, 0.08);
+          border-radius: 8px;
+          padding: 5px 30px;
+          border: none;
+          cursor: pointer;
+        }
+
+        input::placeholder {
+          position: relative;
+          color: #919eab;
+          opacity: 0.5;
+          font-weight: 400;
+          font-family: "Poppins";
+          font-size: 14px;
+          line-height: 26px;
+          left: 1%;
+          pointer-events: none;
+        }
+      }
+      select {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #919eab;
+      }
+      .main__select {
+        width: 280px;
+        height: 54px;
+        background: rgba(145, 158, 171, 0.08);
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+      }
+      .main__closeIcon {
+        z-index: 9999;
+        position: absolute;
+        left: 370px;
+        top: 51%;
+        opacity: 0.5;
+        width: 30px;
+        cursor: pointer;
+      }
+      .main__icon {
+        position: relative;
+        opacity: 0.5;
+        height: 20px;
+        width: 25px;
+        left: 3%;
+        top: 42px;
+      }
+      .main__stars {
+        display: flex;
+        cursor: pointer;
+        .stars__embl {
+          position: relative;
+          top: 5px;
+          left: 5%;
+          font-size: 14px;
+          line-height: 26px;
+        }
+
+        img {
+          padding: 3%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 391px) {
+  .wrap {
+    width: 100%;
+    .wrap_cont {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}
