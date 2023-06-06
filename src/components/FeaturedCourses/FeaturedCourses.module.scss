@@ -1,0 +1,177 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10%;
+  color: #212b36;
+
+  h1 {
+    color: #212b36;
+    margin-top: 24px;
+    font-size: 48px;
+    font-family: "Motserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  p {
+    color: #637381;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 62px;
+    margin-bottom: 70px;
+    margin-top: 24px;
+  }
+  h4 {
+    width: 314px;
+    height: 56px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .img__block {
+    width: 362px;
+    height: 703px;
+    display: flex;
+    gap: 32px;
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+    .cardsfooter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 24px 30px;
+      gap: 20px;
+      width: 362px;
+      height: 74px;
+      b {
+        color: #919eab;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .hours {
+        display: flex;
+        gap: 8px;
+      }
+      .textstat {
+        display: flex;
+        gap: 8px;
+      }
+    }
+    img {
+      border-radius: 16px 16px 0 0;
+    }
+    .wrapper__price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 34px;
+      gap: 25px;
+      width: 362px;
+      height: 280px;
+    }
+    .prices {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      b {
+        color: #fa541c;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      strong {
+        font-size: 24px;
+      }
+    }
+    .grade {
+      display: flex;
+      gap: 18px;
+
+      .grade__right {
+        display: flex;
+        gap: 6px;
+        padding-right: 12px;
+        border-right: 1px solid rgba(145, 158, 171, 0.24);
+        strong {
+          color: #637381;
+        }
+      }
+      .grade__left {
+        padding: 0px;
+        width: 223px;
+        height: 28px;
+        strong {
+          font-family: "Poppins";
+        }
+      }
+    }
+    .info__students {
+      display: flex;
+      align-items: center;
+      b {
+        color: #919eab;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-decoration-line: underline;
+
+        padding: 5px;
+      }
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .wrapper {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 64px 20px;
+gap: 64px;
+
+width: 375px;
+height: 990px;
+    h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+    p {
+      width: 335px;
+      height: 56px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+  .img__block {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 335px;
+height: 676px;
+  }
+}

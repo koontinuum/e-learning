@@ -10,6 +10,7 @@ import OurTeachers from "../components/ourTeachers/OurTeachers";
 import WeWorkWith from "../components/WeWorkWith/WeWorkWith";
 import DownloadApp from "../components/DownloadApp/DownloadApp";
 import StudentsSlide from "../components/StudentsSlide/StudentsSlide";
+import FeaturedCourses from "../components/FeaturedCourses/FeaturedCourses";
 
 function CoursesLanding() {
   return (
@@ -17,8 +18,10 @@ function CoursesLanding() {
       <Header />
       <Hero/>
       <WeWorkWith/>
+      
 <DownloadApp/>
       <InterComp/>
+      <FeaturedCourses/>
       <FeaturedCategory/>
       <OurTeachers/>
       <StudentsSlide/>

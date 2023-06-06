@@ -14,6 +14,14 @@
         "H2":"Мы работаем",
         "titleWorkTextP":"Мы создали это приложение с целью сделать вашу жизнь проще и более удобной. "
       },
+      "FeaturedCourses":{
+        "titleCourses":"Избранные Курсы",
+        "titleLoremP":"Нулевая-нулевая сумма lorem ipsum в dui. Этого слишком много в лексиконе.",
+        "titletextB":"Управление",
+        "titletextStrong":"Студенты"
+
+
+      },
 
       
       "FeaturedCategory":{
