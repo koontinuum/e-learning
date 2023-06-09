@@ -20,13 +20,15 @@
     "featuredlefttextp": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
     "featuredleftbtn": "Explore more"
   },
-    "teachers": {
-      "h2": "Meet Our Teachers",
-      "p": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
-      "h3":"Courses"
-    },
-    "students": {
-      "h1": "What Our Students Say",
-      "h2": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!"
-    }
+  "teachers": {
+    "title":"Our Teachers",
+    "h2": "Meet Our Teachers",
+    "p": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases",
+    "h3": "Courses"
+  },
+  "students": {
+    "h1": "What Our Students Say",
+    "h2": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach. Truly professionals!",
+    "p": "Since wire-frame renderings are relatively simple and fast to calculate, they are often used in cases"
   }
+}

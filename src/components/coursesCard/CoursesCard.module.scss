@@ -27,11 +27,13 @@
         width: 40px;
         height: 40px;
         border-radius: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
     }
 
     .wrapper__star {
-      margin-top: 3%;
+      margin-top: 20px;
       margin-bottom: 3%;
       img {
         width: 220px;
@@ -40,12 +42,15 @@
     }
     .wrapper__p {
       p {
+
+        position: relative;
         font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 26px;
         color: #637381;
+        margin-top: 7px;
       }
     }
     .wrapper__h6 {
@@ -81,7 +86,7 @@
       p {
         position: relative;
         left: 35%;
-        margin-top: 10%;
+        margin-top: 13%;
         font-size: 24px;
         line-height: 36px;
         text-align: right;
@@ -101,7 +106,8 @@
   
       img {
         height: 100%;
-        border-radius: 15px15px 0 0 ;
+        width: 100%;
+        border-radius: 15px 15px 0 0 ;
       }
     }
   }
