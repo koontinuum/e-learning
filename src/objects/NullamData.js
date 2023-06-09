@@ -1,7 +1,7 @@
 export const NullamData = [
     {
         id: 1,
-        title: "Learners",
+        title: 'Learners',
         number: "14k+",
         txt: "Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.",
     },

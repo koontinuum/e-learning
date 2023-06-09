@@ -36,6 +36,41 @@
     "main__date": "February 28, 2018 • 8 min read",
     "main__info": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
     "author": "Jane Cooper"
+  },
+  "OnlineCourses": {
+    "OnlineCourses__title": "Online Courses",
+    "OnlineCourses__txt": "Nunc nulla. Ut leo. Pellentesque commodo eros a enim. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.",
+    "OnlineCourses__btn": "Browse Courses"
+  },
+  "Nullam": {
+    "Nullam__title": "Effective Forms Advertising Internet Web Site",
+    "Nullam__txt": "Over 92% of computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility and even when it is it almost always leaves broken Windows",
+    "Nullam__txt2": "Nullam accumsan lorem in dui."
+  },
+  "NullamBox": {
+    "NullamBox__title1": "Learners",
+    "NullamBox__title2": "Courses",
+    "NullamBox__title3": "Graduates"
+  },
+  "Hero": {
+    "Hero__h2": "Free",
+    "Hero_span1": "Online",
+    "Hero_span2": "Courses",
+    "Hero__h21": "From The Experts",
+    "Hero__txt": "Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros.",
+    "Hero__btn": "Ready Start",
+    "Hero__h6": "Watch Video",
+    "Hero__p1": "Learners",
+    "Hero__p2": "Courses",
+    "Hero__p3": "Graduates"
+  },
+  "LatestPost": {
+    "LatestPost__title": "Latest Posts",
+    "LatestPost__txt": "View All"
+  },
+  "Newsletter": {
+    "Newsletter__title": "Register Now Forget 20% Discount Every Courses",
+    "Newsletter__txt": "Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed magna purus, fermentum eu"
   }
 }
 

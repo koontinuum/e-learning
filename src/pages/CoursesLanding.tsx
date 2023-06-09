@@ -17,12 +17,12 @@ function CoursesLanding() {
       <Header />
       <Hero/>
       <WeWorkWith/>
-      <DownloadApp/>
       <InterComp/>
       <FeaturedCategory/>
       <OurTeachers/>
       <StudentsSlide/>
       <LatestPosts/>
+      <DownloadApp/>
       <Newsletter/>
       <Footer/>
     </div>

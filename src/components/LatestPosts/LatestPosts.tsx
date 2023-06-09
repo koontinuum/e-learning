@@ -3,16 +3,17 @@ import scss from './LatestPosts.module.scss'
 import strelka from '../../images/LatestPostIcon/strelka.svg'
 import krug from '../../images/LatestPostIcon/Ellipse 16.svg'
 import { LatestPostData } from '../../objects/LatestPostsData'
+import { useTranslation } from 'react-i18next'
 
 function LatestPosts() {
 
-    
+    const { t } = useTranslation();
 
     return (
         <div className={scss.wrapper}>
             <div className={scss.top}>
-                <h2>Latest Posts</h2>
-                <button>View All <img src={strelka} alt="" /></button>
+                <h2>{t("LatestPost.LatestPost__title")}</h2>
+                <button>{t("LatestPost.LatestPost__txt")} <img src={strelka} alt="" /></button>
             </div>
             <div className={scss.bottom}>
                 {
