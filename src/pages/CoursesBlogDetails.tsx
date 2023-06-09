@@ -1,7 +1,14 @@
 import React from "react";
+import DigitalBlog from "../components/digitalBlog/DigitalBlog";
+import Header from "../components/header/Header";
 
-function CoursesBlogDetails() {
-  return <div>Courses-Blog-Details</div>;
-}
+const CoursesBlogDetails = () => {
+  return (
+    <div>
+      <Header/>
+      <DigitalBlog />
+    </div>
+  );
+};
 
 export default CoursesBlogDetails;
